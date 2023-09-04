@@ -1,0 +1,40 @@
+.container{
+    background-color: ghostwhite;
+    box-shadow: 1px 2px 3px 4px;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bt{
+    font-size: 40px;
+    border: 20px 20px 20px ;
+    background-color: orange;
+    margin-left: 80px;
+}
+#mathForm{
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+#resultMessage{
+    font-size: 100px;
+    text-align: center;
+}
+.in{
+    padding: 10px;
+    width: 50px;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+
+}    
+
+@media screen and (max-width: 720px) {
+    .in{
+        padding: 10px;
+        width: 50px;
+    
+    }    
+
+}
